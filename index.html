@@ -285,7 +285,8 @@ END:VCALENDAR`;
       .catch(() => {});
   }
   
-window.addEventListener('DOMContentLoaded', wakeUpBackend);
+  window.addEventListener('DOMContentLoaded', wakeUpBackend);
+
   document.getElementById('rsvp-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const form = e.target;
